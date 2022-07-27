@@ -1,0 +1,20 @@
+#apps{
+    flex: 1;
+    flex-direction: row;
+  
+  }
+  div ul{
+    display: grid;
+    padding: 10px;
+    grid-template-columns:  1fr 1fr;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 20px;
+    list-style: none;
+  }
+  @media(max-width:650px){
+    div ul{
+      grid-template-columns:  1fr;
+    }
+  }
